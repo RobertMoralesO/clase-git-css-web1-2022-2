@@ -1,0 +1,33 @@
+/* Selectores de Tipo */
+
+/*Selector por atributo*/
+[value]{
+    margin-top: 20px;
+}
+
+
+/*[value*="aqui"]{
+    background-color: blue;
+}*/
+
+/* Palabra en cualquier posición*/
+[value~="aqui"]{
+    background-color: blue;
+}
+
+
+/* Palabra al final */
+[value$="aqui"]{
+    background-color: yellow;
+}
+
+/* Palabra al inicio */
+[value^="aqui"]{
+    background-color: pink;
+}
+
+/* Exactamente igual */
+
+[value="aqui"]{
+    background-color: green ;
+}

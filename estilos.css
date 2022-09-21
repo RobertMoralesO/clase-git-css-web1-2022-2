@@ -1,33 +1,39 @@
-/* Selectores de Tipo */
+.card{
+    background-color: lightblue;
+    width: 300px;
+    
+    /* arriba, derecha, abajo, izquierda*/
+    padding: 20px 20px 50px 10px;
+    padding: 15px 45px;
+    padding-top: 50px;
+    padding-right: 50px;
+    padding-left: 50px;
+    padding-bottom: 50px;
 
-/*Selector por atributo*/
-[value]{
-    margin-top: 20px;
-}
+    /*border-width, border-style, border-color*/
+
+    /* border-width*/
+     /* arriba, derecha, abajo, izquierda*/
+     border-width: 20px 50px 20px 15px;
+     border-width: 20px 50px ;
+     /*border-top-width: ;
+     border-right-width: ;
+     border-left-width: ;
+     border-bottom-width: ;*/
+
+     /*solid double dashed dotted groove ridge*/
+     border-style: ridge;
+     border-left-style: dashed;
+     border-right-style: double;
+     border-style: ridge dashed double groove;
 
 
-/*[value*="aqui"]{
-    background-color: blue;
-}*/
-
-/* Palabra en cualquier posición*/
-[value~="aqui"]{
-    background-color: blue;
-}
+     border-color: lightgreen red blue yellow;
 
 
-/* Palabra al final */
-[value$="aqui"]{
-    background-color: yellow;
-}
+     margin: 10px;
 
-/* Palabra al inicio */
-[value^="aqui"]{
-    background-color: pink;
-}
 
-/* Exactamente igual */
+     border: 5px solid green;
 
-[value="aqui"]{
-    background-color: green ;
 }
