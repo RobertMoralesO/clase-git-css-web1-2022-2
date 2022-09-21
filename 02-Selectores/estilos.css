@@ -1,0 +1,63 @@
+/* Selectores de Tipo */
+
+/*Especificidad de selectores de tipo es: 1*/
+body{
+    background-color: lightblue;
+}
+
+li{
+    background-color: red;
+}
+
+/* Selector de Clase*/
+/*Especificidad de selectores de tipo es: 10*/
+.peliculas {
+    background-color: yellow;
+}
+
+.series {
+    background-color: blue;
+}
+
+.pelicula {
+    background-color: green;
+}
+
+/* Selector de ID*/
+
+/*Especificidad de selectores de id es: 100*/
+
+#senorDeLosAnillos{
+    background-color: grey;
+}
+
+#suits{
+    background-color: hotpink;
+}
+
+/* Especificidades y Cascada*/
+
+
+
+
+
+
+li{
+    background-color: greenyellow; /*1*/
+}
+
+.juego{
+    background-color: pink; /*10*/
+}
+
+#basket{
+    background-color: brown; /*100*/
+}
+
+#basket{
+    background-color: red; /*100*/
+}
+
+/*
+1. Especificidad
+2. Cascadas*/
